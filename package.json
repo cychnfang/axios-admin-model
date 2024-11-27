@@ -1,6 +1,6 @@
 {
   "name": "axios-admin-model",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@release-it/conventional-changelog": "^9.0.3",
     "@types/node": "^22.10.0",
     "eslint": "^9.15.0",
     "lint-staged": "^15.2.10",

@@ -11,5 +11,13 @@
   "npm": {
     "publishArgs": ["--provenance"],
     "skipChecks": true
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "preset": {
+        "name": "angular"
+      },
+      "infile": "CHANGELOG.md"
+    }
   }
 }
