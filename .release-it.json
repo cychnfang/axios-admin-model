@@ -11,7 +11,8 @@
   },
   "npm": {
     "publishArgs": ["--provenance"],
-    "skipChecks": true
+    "skipChecks": true,
+    "publish": false
   },
   "github": {
     "draft": true,
