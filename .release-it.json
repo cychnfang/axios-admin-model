@@ -4,9 +4,9 @@
     "requireCleanWorkingDir": true,
     "tagAnnotation": "Release v${version}",
     "tagName": "v${version}",
-    "commit": false,
-    "tag": false,
-    "push": false
+    "commit": true,
+    "tag": true,
+    "push": true
   },
   "hooks": {
     "after:bump": "npm run build"
