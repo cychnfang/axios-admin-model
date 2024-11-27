@@ -3,7 +3,10 @@
     "commitMessage": "Craft v${version} release",
     "requireCleanWorkingDir": true,
     "tagAnnotation": "Release v${version}",
-    "tagName": "v${version}"
+    "tagName": "v${version}",
+    "commit": false,
+    "tag": false,
+    "push": false
   },
   "hooks": {
     "after:bump": "npm run build"
