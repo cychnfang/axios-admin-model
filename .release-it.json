@@ -11,8 +11,12 @@
   },
   "npm": {
     "publishArgs": ["--provenance"],
-    "skipChecks": true,
-    "publish": false
+    "skipChecks": true
+  },
+  "github": {
+    "draft": true,
+    "release": true,
+    "releaseName": "v${version}"
   },
   "plugins": {
     "@release-it/conventional-changelog": {
