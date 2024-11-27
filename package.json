@@ -1,6 +1,6 @@
 {
   "name": "axios-admin-model",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,6 @@
     "format": "prettier --write --cache .",
     "preinstall": "npx only-allow pnpm",
     "postinstall": "pnpx simple-git-hooks"
-  },
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged",
-    "commit-msg": "pnpm run verify-commit"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +33,10 @@
   "dependencies": {
     "axios": "^1.7.8"
   },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged",
+    "commit-msg": "pnpm run verify-commit"
+  },
   "lint-staged": {
     "*": [
       "prettier --write --cache --ignore-unknown"
@@ -53,6 +53,7 @@
     "pnpm": ">=9"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "dist/**/*"
   ]
 }
