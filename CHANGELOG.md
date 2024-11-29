@@ -1,3 +1,9 @@
+## 7.0.1 (2024-11-29)
+
+### Features
+
+- 124 ([c6ff2f9](https://github.com/cychnfang/axios-admin-model/commit/c6ff2f9cfbe0c43888d9282ce4efa7ba9f301299))
+
 # [7.0.0](https://github.com/cychnfang/axios-admin-model/compare/v6.0.0...v7.0.0) (2024-11-29)
 
 ### Features
