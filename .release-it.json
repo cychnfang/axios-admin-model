@@ -17,6 +17,7 @@
   "github": {
     "draft": true,
     "release": true,
+    "skipChecks": false,
     "releaseName": "v${version}"
   },
   "plugins": {
