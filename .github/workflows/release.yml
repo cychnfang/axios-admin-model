@@ -28,7 +28,7 @@ jobs:
   build:
     name: build dist
     permissions:
-      contents: read
+      contents: write
       id-token: write
 
     runs-on: ubuntu-latest
@@ -63,4 +63,4 @@ jobs:
       - name: release
         run: npm run release ${{ github.event.inputs.bump }}${{ github.event.inputs.dry-run == 'true' && ' -- --dry-run' || '' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
