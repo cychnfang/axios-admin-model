@@ -1,3 +1,12 @@
+# [7.0.0](https://github.com/cychnfang/axios-admin-model/compare/v6.0.0...v7.0.0) (2024-11-29)
+
+### Features
+
+- release-it10 ([8e0262c](https://github.com/cychnfang/axios-admin-model/commit/8e0262c436d6c363822a8b8b6f876d708b688880))
+- release-it11 ([704bd4e](https://github.com/cychnfang/axios-admin-model/commit/704bd4ef5765248810e6bc5a0b290305d0ff6d7b))
+- release-it12 ([7f83ea4](https://github.com/cychnfang/axios-admin-model/commit/7f83ea4fec19cebbdf8a1b5ee77ed0e15325dc45))
+- release-it13 ([b6b1e83](https://github.com/cychnfang/axios-admin-model/commit/b6b1e83c033bbdd8e9ac14294a2ee64e496079da))
+
 # 6.0.0 (2024-11-27)
 
 ### Features
