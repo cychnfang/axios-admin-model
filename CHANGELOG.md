@@ -1,3 +1,5 @@
+## [7.0.2](https://github.com/cychnfang/axios-admin-model/compare/v7.0.1...v7.0.2) (2025-01-24)
+
 ## 7.0.1 (2024-11-29)
 
 ### Features
